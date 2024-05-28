@@ -66,7 +66,9 @@ const AdminHome = () => {
   useEffect(() => {
     const fetchMenuData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/payments');
+        const response = await fetch(
+          'https://bistro-boss-rastaurent-serverr-main.vercel.app/payments'
+        );
         const data = await response.json();
         setMenu(data);
         setLoading(false);
@@ -82,7 +84,9 @@ const AdminHome = () => {
   useEffect(() => {
     const fetchMenuData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/menu');
+        const response = await fetch(
+          'https://bistro-boss-rastaurent-serverr-main.vercel.app/menu'
+        );
         const data = await response.json();
         setMenu(data);
         setLoading(false);

@@ -111,7 +111,9 @@ export const router = createBrowserRouter([
         path: 'UpdateItem/:id',
         element: <UpdateItem />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/menu/${params.id}`),
+          fetch(
+            `https://bistro-boss-rastaurent-serverr-main.vercel.app/menu/${params.id}`
+          ),
       },
       {
         path: 'PaymentWrapper',
