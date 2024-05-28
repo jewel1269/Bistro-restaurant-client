@@ -19,7 +19,8 @@ promotions and events.
 
 ## Live Site
 
-Visit the live site: [here](https://bistro-boss-restaurant.web.app/).
+Visit the live site:
+[https://bistro-boss-restaurant.web.app/](https://bistro-boss-restaurant.web.app/).
 
 ## Features
 
