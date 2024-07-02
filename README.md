@@ -1,43 +1,66 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and
-some ESLint rules.
+This template provides a minimal setup to get React working in Vite with Hot
+Module Replacement (HMR) and includes some ESLint rules.
 
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
+  uses [Babel](https://babeljs.io/) for Fast Refresh.
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
-  uses [SWC](https://swc.rs/) for Fast Refresh
+  uses [SWC](https://swc.rs/) for Fast Refresh.
 
-# Bistro Boss Restaurant
+# Parcel Management System
 
-Welcome to Bistro Boss Restaurant! This project is a web application for a
-fictional restaurant named Bistro Boss. It allows customers to explore the
-restaurant's menu, place orders online, make reservations, and stay updated on
-promotions and events.
+![Project Live Link](https://bistro-boss-rastaurent.web.app/)
 
-## Live Site
+A web application for efficient parcel tracking and management.
 
-Visit the live site:
-[https://bistro-boss-restaurant.web.app/](https://bistro-boss-restaurant.web.app/).
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The Parcel Management System is a full-stack web application built to streamline
+parcel tracking and delivery logistics. It provides users with real-time updates
+on parcel statuses and allows administrators to manage parcels and user accounts
+effectively.
 
 ## Features
 
-- **Menu Exploration:** Browse through the restaurant's menu items, including
-  descriptions, prices, and images.
-- **Online Ordering:** Place orders directly through the website, with options
-  for customization and special requests.
-- **Reservation System:** Make table reservations online, specifying the desired
-  date, time, and number of guests.
-- **Location and Hours:** Find information about the restaurant's location,
-  address, contact details, and operating hours.
-- **Promotions and Events:** Stay informed about special promotions, events, and
-  offers, such as happy hours or seasonal menus.
+- _User Authentication:_ Secure login and registration system.
+- _Parcel Tracking:_ Real-time tracking of parcel status.
+- _Admin Dashboard:_ Dashboard for administrators to manage users and parcels.
+- _Notifications:_ Automated notifications for parcel updates.
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS,Tailwind css, JavaScript, React.js, and more.
-- **Backend:** Node.js, express.js, mongodb and Firebase (for data storage and
-  authentication)
-- **Deployment:** Firebase Hosting
+- _Frontend:_ React.js, Bootstrap
+- _Backend:_ Node.js, Express.js
+- _Database:_ MongoDB
+- _Hosting:_ Firebase
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   `git clone https://github.com/your-username/parcel-management-system.git`
+2. Navigate to the project directory: `cd parcel-management-system`
+3. Install dependencies: `npm install`
+
+## Usage
+
+After installation, start the development server:
+
+```bash
+npm start
+```
