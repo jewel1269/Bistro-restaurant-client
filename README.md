@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 # Bistro Boss Restaurant
 
-![Project Image](https://example.com/project-image.png)
+![Project Live Link](https://bistro-boss-rastaurent.web.app/)
 
 A comprehensive restaurant management system for efficient order processing and
 customer management.
