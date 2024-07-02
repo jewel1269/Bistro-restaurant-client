@@ -10,11 +10,12 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
   uses [SWC](https://swc.rs/) for Fast Refresh.
 
-# Parcel Management System
+# Bistro Boss Restaurant
 
-![Project Live Link](https://bistro-boss-rastaurent.web.app/)
+![Project Image](https://example.com/project-image.png)
 
-A web application for efficient parcel tracking and management.
+A comprehensive restaurant management system for efficient order processing and
+customer management.
 
 ## Table of Contents
 
@@ -29,33 +30,34 @@ A web application for efficient parcel tracking and management.
 
 ## Introduction
 
-The Parcel Management System is a full-stack web application built to streamline
-parcel tracking and delivery logistics. It provides users with real-time updates
-on parcel statuses and allows administrators to manage parcels and user accounts
-effectively.
+Bistro Boss Restaurant is a full-stack web application designed to streamline
+restaurant operations, from order placement to customer checkout. It provides a
+user-friendly interface for both customers and restaurant staff.
 
 ## Features
 
-- _User Authentication:_ Secure login and registration system.
-- _Parcel Tracking:_ Real-time tracking of parcel status.
-- _Admin Dashboard:_ Dashboard for administrators to manage users and parcels.
-- _Notifications:_ Automated notifications for parcel updates.
+- _Menu Management:_ Easily manage menu items and categories.
+- _Order Processing:_ Efficient handling of customer orders and payments.
+- _Reservation System:_ Online booking system for table reservations.
+- _Admin Dashboard:_ Dashboard for staff to manage orders, reservations, and
+  customer information.
 
 ## Technologies Used
 
-- _Frontend:_ React.js, Bootstrap
+- _Frontend:_ React.js, Material-UI
 - _Backend:_ Node.js, Express.js
 - _Database:_ MongoDB
-- _Hosting:_ Firebase
+- _Authentication:_ JSON Web Tokens (JWT)
+- _Deployment:_ Firebase Hosting
 
 ## Installation
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-   `git clone https://github.com/your-username/parcel-management-system.git`
-2. Navigate to the project directory: `cd parcel-management-system`
-3. Install dependencies: `npm install`
+1. Clone the repository: git clone
+   https://github.com/your-username/bistro-boss-restaurant.git
+2. Navigate to the project directory: cd bistro-boss-restaurant
+3. Install dependencies: npm install
 
 ## Usage
 
