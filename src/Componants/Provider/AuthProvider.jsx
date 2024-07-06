@@ -31,6 +31,7 @@ const AuthProvider = ({ children }) => {
   const signOutUser = () => {
     // Changed signOut to signOutUser to avoid conflict with the import
     setLoading(true);
+
     return signOut(auth);
   };
 

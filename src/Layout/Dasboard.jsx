@@ -54,7 +54,7 @@ const Dasboard = () => {
       <div className="w-64 min-h-full">
         <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
           <div className="flex flex-col hover:bg-orange-500 hover:border-2 hover:rounded-3xl text-white items-center">
-            <h1 className="text-2xl text-black  font-bold">BISTRO BOSS</h1>
+            <h1 className="text-2xl text-black  font-bold">PIZZA BHAI</h1>
             <h3 className="text-lg text-black ">RESTAURANT</h3>
           </div>
           <div className="flex flex-col justify-between flex-1 mt-6">

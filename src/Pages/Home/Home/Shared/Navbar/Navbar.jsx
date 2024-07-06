@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
             <div className="flex flex-col hover:bg-gray-900 text-white items-center">
-              <h1 className="text-2xl font-bold">BISTRO BOSS</h1>
+              <h1 className="text-2xl font-bold">PIZZA BHAI</h1>
               <h3 className="text-lg">RESTAURANT</h3>
             </div>
 

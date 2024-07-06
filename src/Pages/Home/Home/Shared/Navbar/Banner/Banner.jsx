@@ -11,6 +11,9 @@ import image6 from '../../../../../../assets/home/06.jpg';
 const Banner = () => {
   return (
     <Carousel>
+       <div className="text-center">
+        <img src={image4} />
+      </div>
       <div className="text-center">
         <img src={image2} />
       </div>
@@ -20,9 +23,7 @@ const Banner = () => {
       <div className="text-center">
         <img src={image3} />
       </div>
-      <div className="text-center">
-        <img src={image4} />
-      </div>
+     
       <div className="text-center">
         <img src={image5} />
       </div>

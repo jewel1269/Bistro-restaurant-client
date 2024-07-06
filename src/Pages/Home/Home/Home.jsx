@@ -13,7 +13,7 @@ import Category from "./Shared/Navbar/Category/Category";
 const Home = () => {
     return (
         <div>
-            <Helmet><title>Bistro Boss|| Home</title></Helmet>
+            <Helmet><title>PIZZA BHAI|| Home</title></Helmet>
             <Banner/>
             <Category/>
             <BistroBoss/>
